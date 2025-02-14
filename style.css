@@ -5,9 +5,13 @@
 }
 
 .Main-page {
+    background:url('img/bg-header.jpg')no-repeat ;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     border-radius: 80px;
+    display: flex;
+    z-index: -1;
 }
 
 .nav-item {
@@ -26,6 +30,12 @@
     height: 85vh;
     border-radius: 35px;
 }
+.caption2-text1{
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    margin: 30px;
+}
 
 .caption2 {
     background: url('/img/caption2.jpeg') no-repeat;
@@ -39,6 +49,13 @@
     font-size: 20px;
     
 }
+.caption2-text{
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 22px;
+    opacity: 0.7;
+} 
 
 .button-style {
     font-size: 25px;
@@ -57,4 +74,39 @@
     justify-content: flex-start;
     text-align: justify;
     border-radius: 20px;
+}
+.table{
+    justify-content: center;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.table h1{
+    font-size: 100px;
+}
+.Description{
+    background:url('/img/Description.png') no-repeat ;
+    background-size: cover;
+    border-radius: 30px;
+    height: 100vh;
+    width: 60%;
+}
+.Description2{
+    justify-content: center;
+    text-align: center;
+    margin-top: 265px;
+}
+.Description-style-buttone-{
+    font-size: 29px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+.Description-style-buttone :hover{
+    background-color: azure;
+    color: black;
+    border: 1px solid lightblue;
 }
