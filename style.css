@@ -1,0 +1,60 @@
+.nav-order {
+    padding: 13px;
+    font-size: 20px;
+
+}
+
+.Main-page {
+    height: 100vh;
+    width: 100%;
+    border-radius: 80px;
+}
+
+.nav-item {
+    padding: 5px;
+}
+
+.paraghraf {
+    width: 350px;
+    text-align: center;
+
+}
+
+.caption {
+    background: url('/img/caption.jpg') no-repeat;
+    background-size: cover;
+    height: 85vh;
+    border-radius: 35px;
+}
+
+.caption2 {
+    background: url('/img/caption2.jpeg') no-repeat;
+    background-size: cover;
+    height: 55vh;
+    width: auto;
+    border-radius: 20px;
+    margin-top: 15px;
+    z-index: -1;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.button-style {
+    font-size: 25px;
+    border-radius: 35px;
+    background-color: blanchedalmond;
+}
+.button-style:hover{
+    opacity: 0.3;
+    color: black;
+}
+.caption3 {
+    height: 230px;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    margin-top: 55px;
+    justify-content: flex-start;
+    text-align: justify;
+    border-radius: 20px;
+}
